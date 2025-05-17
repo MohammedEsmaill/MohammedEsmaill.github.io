@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <title>Mohammed Esmail</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+  <!--Nav-bar-->
+  <nav id="navbar" class="navbar navbar-expand-lg  position-fixed w-100 z-3 bg-dark bg-opacity-50 shadow">
+    <div class="container">
+      <a class="navbar-brand text-uppercase fw-semibold text-white" href="#home">Mohammed</a>
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active p-0 mx-2 text-white" aria-current="page" href="#home">Home</a>
+          <a class="nav-link p-0 mx-3 text-white" href="#works">Works</a>
+          <a class="nav-link p-0 mx-3 text-white" href="#about">About</a>
+          <a class="nav-link p-0 mx-3 text-white" href="#certificates">Certificates</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- header-bage -->
+  <header class="vh-100 d-flex justify-content-center align-items-center flex-column" id="home">
+    <div class="header-content text-white text-center">
+      <h3 class="text-capitalize display-1 fw-bolder">hello</h3>
+      <h1 class="text-capitalize fw-light my-5 display-2">
+        I 'Am <span class="fw-semibold" id="typing-text"></span>
+      </h1>
+    </div>
+    <div class="header-icon d-flex justify-content-between">
+      <a href="mailto:abohadida51@gmail.com"><i class="fa-solid fa-beat-fade fa-envelope mx-2 fa-xl text-light"></i></a>
+      <a href="https://github.com/MohammedEsmaill" target="_blank"><i class="fa-brands fa-beat-fade fa-github mx-2 fa-xl text-light"></i></a>
+      <a href="https://www.linkedin.com/in/mohammed-esmail-34626933b" target="_blank"><i class="fa-brands fa-beat-fade fa-linkedin mx-2 fa-xl text-light"></i></a>
+    </div>
+    <div class="text-center mt-5">
+      <a href="https://drive.google.com/file/d/1nW-8Tfosb2jF-KYyVhpsadguzsWXskEP/view?usp=drive_link" target="_blank" class="btn btn-outline-light fs-5">View Resume</a>
+    </div>
+  </header>
+  <!--works-page-->
+  <section class="works-page" id="works">
+    <div class="container d-flex justify-content-center align-items-center flex-column">
+      <div class="page-title-dashesd d-flex justify-content-center align-items-center flex-column">
+        <h2 class="position-relative display-4 fw-bold my-5">Projects.</h2>
+      </div>
+      <div class="works-content d-flex justify-content-center align-items-center flex-column mb-5">
+        <ul class="nav nav-pills mb-5" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-front-tab" data-bs-toggle="pill" data-bs-target="#pills-Front-End" type="button" role="tab" aria-controls="pills-front" aria-selected="false">Front-End</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-Back-tab" data-bs-toggle="pill" data-bs-target="#pills-Back-End" type="button" role="tab" aria-controls="pills-Back" aria-selected="false">Back-End</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="works-card rounded-2 overflow-hidden position-relative">
+                  <div class="overlay position-absolute w-100 h-100 bg-white opacity-0 text-center align-content-center">
+                    <h4 class="mb-3 fw-bold">Fresh Market</h4>
+                    <div class="card-icon d-flex justify-content-center align-items-center">
+                      <a href="https://github.com/MohammedEsmaill/Fresh-market.git" target="_blank" class=" icon-circle rounded-circle  d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-code"></i></a>
+                      <a href="https://fresh-market.vercel.app/" target="_blank " class="icon-circle rounded-circle d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-laptop-code"></i></a>
+                    </div>
+                    <p class="card-text p-3">The graduation project for Route Academy Front-End track, which is a full e-commerce web app using React.js</p>
+                  </div>
+                  <img class="w-100 h-75" src="images/portfolio/Standing-Shopping-Bag-Mockup-.jpg" alt="works image">
+                </div>
+              </div>
+              <div class="col">
+                <div class="works-card rounded-2 overflow-hidden position-relative">
+                  <div class="overlay position-absolute w-100 h-100 bg-white opacity-0 text-center align-content-center">
+                    <h4 class="mb-3 fw-bold">Party Oraganization</h4>
+                    <div class="card-icon d-flex justify-content-center align-items-center">
+                      <a href="https://github.com/MohammedEsmaill/party-organization.git" target="_blank" class=" icon-circle rounded-circle  d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-code"></i></a>
+                      <a href="https://MohammedEsmaill.github.io/party-organization/" target="_blank " class="icon-circle rounded-circle d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-laptop-code"></i></a>
+                    </div>
+                    <p class="card-text p-3">Front-end sitedesigned for event and party organization using HTML, CSS, and JavaScript.</p>
+                  </div>
+                  <img class="w-100 h-75" src="images/portfolio/Neon-Absolute-Font-300x225.jpg" alt="works image">
+                </div>
+              </div>
+              <div class="col">
+                <div class="works-card rounded-2 overflow-hidden position-relative">
+                  <div class="overlay position-absolute w-100 h-100 bg-white opacity-0 text-center align-content-center">
+                    <h4 class="mb-3 fw-bold">Yummy kitchen</h4>
+                    <div class="card-icon d-flex justify-content-center align-items-center">
+                      <a href="https://github.com/MohammedEsmaill/Yummy-kitchen.git" target="_blank" class=" icon-circle rounded-circle  d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-code"></i></a>
+                      <a href="https://MohammedEsmaill.github.io/Yummy-kitchen/" target="_blank " class="icon-circle rounded-circle d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-laptop-code"></i></a>
+                    </div>
+                    <p class="card-text p-3">Front-end site for cooking recipes using HTML, CSS, and JS, providing an interactive and responsive user experience(SPA), dynamic search, and API integration </p>
+                  </div>
+                  <img class="w-100 h-75" src="images/portfolio/Fast-Food-Packaging-Mockup-.jpg" alt="works image">
+                </div>
+              </div>
+              <div class="col">
+                <div class="works-card rounded-2 overflow-hidden position-relative">
+                  <div class="overlay position-absolute w-100 h-100 bg-white opacity-0 text-center align-content-center">
+                    <h4 class="mb-3 fw-bold">Game Over</h4>
+                    <div class="card-icon d-flex justify-content-center align-items-center">
+                      <a href="https://github.com/MohammedEsmaill/Game-over.git" target="_blank" class=" icon-circle rounded-circle  d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-code"></i></a>
+                      <a href="https://MohammedEsmaill.github.io/Game-over/" target="_blank " class="icon-circle rounded-circle d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-laptop-code"></i></a>
+                    </div>
+                    <p class="card-text p-3">Front-end site  for games and entertainmet using JS and BootStrap providing an interactive and responsive user experience (SPA), and API integration.   </p>
+                  </div>
+                  <img class="w-100 h-75" src="images/portfolio/Apple-Devices-Mockup-.jpg" alt="works image">
+                </div>
+              </div>
+              <div class="col">
+                <div class="works-card rounded-2 overflow-hidden position-relative">
+                  <div class="overlay position-absolute w-100 h-100 bg-white opacity-0 text-center align-content-center">
+                    <h4 class="mb-3 fw-bold">Weather</h4>
+                    <div class="card-icon d-flex justify-content-center align-items-center">
+                      <a href="https://github.com/MohammedEsmaill/weather.git" target="_blank" class=" icon-circle rounded-circle  d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-code"></i></a>
+                      <a href="https://MohammedEsmaill.github.io/weather/" target="_blank " class="icon-circle rounded-circle d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-laptop-code"></i></a>
+                    </div>
+                    <p class="card-text p-3">Front-end site  using JS and BootStrap for responsive design, dynamic search, Integration with weather APIs</p>
+                  </div>
+                  <img class="w-100 h-75" src="images/portfolio/phone-mockup-300x225.jpg" alt="works image">
+                </div>
+              </div>
+              <div class="col">
+                <div class="works-card rounded-2 overflow-hidden position-relative">
+                  <div class="overlay position-absolute w-100 h-100 bg-white opacity-0 text-center align-content-center">
+                    <h4 class="mb-3 fw-bold">E Commerce</h4>
+                    <div class="card-icon d-flex justify-content-center align-items-center">
+                      <a href="https://github.com/MohammedEsmaill/E-commerce.git" target="_blank" class=" icon-circle rounded-circle  d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-code"></i></a>
+                      <a href="https://documenter.getpostman.com/view/37641417/2sB2j4gWnh" target="_blank " class="icon-circle rounded-circle d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-cubes"></i></a>
+                    </div>
+                    <p class="card-text p-3">E-commerce application for online shopping build use (Nest.js,MongoDB,Stripe,…….) </p>
+                  </div>
+                  <img class="w-100 h-75" src="images/portfolio/api_illustration_440x330.jpeg" alt="works image">
+                </div>
+              </div>
+              <div class="col">
+                <div class="works-card rounded-2 overflow-hidden position-relative">
+                  <div class="overlay position-absolute w-100 h-100 bg-white opacity-0 text-center align-content-center">
+                    <h4 class="mb-3 fw-bold">Job Search App</h4>
+                    <div class="card-icon d-flex justify-content-center align-items-center">
+                      <a href="https://github.com/MohammedEsmaill/job_search.git" target="_blank" class=" icon-circle rounded-circle  d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-code"></i></a>
+                      <a href="https://documenter.getpostman.com/view/37641417/2sAYdhKW5k" target="_blank " class="icon-circle rounded-circle d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-cubes"></i></a>
+                    </div>
+                    <p class="card-text p-3">Express.js, MongoDB, GraphQl, JOI, socket.io  for apply job and job offering</p>
+                  </div>
+                  <img class="w-100 h-75" src="images/portfolio/api_illustration_440x330.jpeg" alt="works image">
+                </div>
+              </div>
+              <div class="col">
+                <div class="works-card rounded-2 overflow-hidden position-relative">
+                  <div class="overlay position-absolute w-100 h-100 bg-white opacity-0 text-center align-content-center">
+                    <h4 class="mb-3 fw-bold">Social App</h4>
+                    <div class="card-icon d-flex justify-content-center align-items-center">
+                      <a href="https://github.com/MohammedEsmaill/social-App.git" target="_blank" class=" icon-circle rounded-circle  d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-code"></i></a>
+                      <a href="https://documenter.getpostman.com/view/37641417/2sAYQfEUsG" target="_blank " class="icon-circle rounded-circle d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-cubes"></i></a>
+                    </div>
+                    <p class="card-text p-3">Social application build using (Express.js, MongoDB, JOI, socket.io)</p>
+                  </div>
+                  <img class="w-100 h-75" src="images/portfolio/api_illustration_440x330.jpeg" alt="works image">
+                </div>
+              </div>
+              <div class="col">
+                <div class="works-card rounded-2 overflow-hidden position-relative">
+                  <div class="overlay position-absolute w-100 h-100 bg-white opacity-0 text-center align-content-center">
+                    <h4 class="mb-3 fw-bold">Saraha App</h4>
+                    <div class="card-icon d-flex justify-content-center align-items-center">
+                      <a href="https://github.com/MohammedEsmaill/social-App.git" target="_blank" class=" icon-circle rounded-circle  d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-code"></i></a>
+                      <a href="https://documenter.getpostman.com/view/37641417/2sAYQcFW1V" target="_blank " class="icon-circle rounded-circle d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-cubes"></i></a>
+                    </div>
+                    <p class="card-text p-3">Saraha application build using (Express.js, MongoDB, JOI)</p>
+                  </div>
+                  <img class="w-100 h-75" src="images/portfolio/api_illustration_440x330.jpeg" alt="works image">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-Front-End" role="tabpanel" aria-labelledby="pills-front-tab" tabindex="0">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="works-card rounded-2 overflow-hidden position-relative">
+                  <div class="overlay position-absolute w-100 h-100 bg-white opacity-0 text-center align-content-center">
+                    <h4 class="mb-3 fw-bold">Fresh Market</h4>
+                    <div class="card-icon d-flex justify-content-center align-items-center">
+                      <a href="https://github.com/MohammedEsmaill/Fresh-market.git" target="_blank" class=" icon-circle rounded-circle  d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-code"></i></a>
+                      <a href="https://fresh-market.vercel.app/" target="_blank " class="icon-circle rounded-circle d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-laptop-code"></i></a>
+                    </div>
+                    <p class="card-text p-3">The graduation project for Route Academy Front-End track, which is a full e-commerce web app using React.js</p>
+                  </div>
+                  <img class="w-100 h-75" src="images/portfolio/Standing-Shopping-Bag-Mockup-.jpg" alt="works image">
+                </div>
+              </div>
+              <div class="col">
+                <div class="works-card rounded-2 overflow-hidden position-relative">
+                  <div class="overlay position-absolute w-100 h-100 bg-white opacity-0 text-center align-content-center">
+                    <h4 class="mb-3 fw-bold">Party Oraganization</h4>
+                    <div class="card-icon d-flex justify-content-center align-items-center">
+                      <a href="https://github.com/MohammedEsmaill/party-organization.git" target="_blank" class=" icon-circle rounded-circle  d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-code"></i></a>
+                      <a href="https://MohammedEsmaill.github.io/party-organization/" target="_blank " class="icon-circle rounded-circle d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-laptop-code"></i></a>
+                    </div>
+                    <p class="card-text p-3">Front-end site designed for event and party organization using HTML, CSS, and JS, with dynamic UI elements, responsive design, and interactive components .</p>
+                  </div>
+                  <img class="w-100 h-75" src="images/portfolio/Neon-Absolute-Font-300x225.jpg" alt="works image">
+                </div>
+              </div>
+              <div class="col">
+                <div class="works-card rounded-2 overflow-hidden position-relative">
+                  <div class="overlay position-absolute w-100 h-100 bg-white opacity-0 text-center align-content-center">
+                    <h4 class="mb-3 fw-bold">Yummy kitchen</h4>
+                    <div class="card-icon d-flex justify-content-center align-items-center">
+                      <a href="https://github.com/MohammedEsmaill/Yummy-kitchen.git" target="_blank" class=" icon-circle rounded-circle  d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-code"></i></a>
+                      <a href="https://MohammedEsmaill.github.io/Yummy-kitchen/" target="_blank " class="icon-circle rounded-circle d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-laptop-code"></i></a>
+                    </div>
+                    <p class="card-text p-3">Front-end site for cooking recipes using HTML, CSS, and JS, providing an interactive and responsive user experience(SPA), dynamic search, and API integration</p>
+                  </div>
+                  <img class="w-100 h-75" src="images/portfolio/Fast-Food-Packaging-Mockup-.jpg" alt="works image">
+                </div>
+              </div>
+              <div class="col">
+                <div class="works-card rounded-2 overflow-hidden position-relative">
+                  <div class="overlay position-absolute w-100 h-100 bg-white opacity-0 text-center align-content-center">
+                    <h4 class="mb-3 fw-bold">Game Over</h4>
+                    <div class="card-icon d-flex justify-content-center align-items-center">
+                      <a href="https://github.com/MohammedEsmaill/Game-over.git" target="_blank" class=" icon-circle rounded-circle  d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-code"></i></a>
+                      <a href="https://MohammedEsmaill.github.io/Game-over/" target="_blank " class="icon-circle rounded-circle d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-laptop-code"></i></a>
+                    </div>
+                    <p class="card-text p-3">experience (SPA), and API integrationexperience (SPA), and API integration.   </p>                    <p class="card-text p-3"></p>
+                  </div>
+                  <img class="w-100 h-75" src="images/portfolio/Apple-Devices-Mockup-.jpg" alt="works image">
+                </div>
+              </div>
+              <div class="col">
+                <div class="works-card rounded-2 overflow-hidden position-relative">
+                  <div class="overlay position-absolute w-100 h-100 bg-white opacity-0 text-center align-content-center">
+                    <h4 class="mb-3 fw-bold">Weather</h4>
+                    <div class="card-icon d-flex justify-content-center align-items-center">
+                      <a href="https://github.com/MohammedEsmaill/weather.git" target="_blank" class=" icon-circle rounded-circle  d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-code"></i></a>
+                      <a href="https://MohammedEsmaill.github.io/weather/" target="_blank " class="icon-circle rounded-circle d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-laptop-code"></i></a>
+                    </div>
+                    <p class="card-text p-3">Front-end site  using JS and BootStrap for responsive design, dynamic search, Integration with weather APIs</p>
+                  </div>
+                  <img class="w-100 h-75" src="images/portfolio/phone-mockup-300x225.jpg" alt="works image">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-Back-End" role="tabpanel" aria-labelledby="pills-Back-tab" tabindex="0">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="works-card rounded-2 overflow-hidden position-relative">
+                  <div class="overlay position-absolute w-100 h-100 bg-white opacity-0 text-center align-content-center">
+                    <h4 class="mb-3 fw-bold">E Commerce</h4>
+                    <div class="card-icon d-flex justify-content-center align-items-center">
+                      <a href="https://github.com/MohammedEsmaill/E-commerce.git" target="_blank" class=" icon-circle rounded-circle  d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-code"></i></a>
+                      <a href="https://documenter.getpostman.com/view/37641417/2sB2j4gWnh" target="_blank " class="icon-circle rounded-circle d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-cubes"></i></a>
+                    </div>
+                    <p class="card-text p-3">E-commerce application for online shopping build use (Nest.js,MongoDB,Stripe,…….) </p>
+                  </div>
+                  <img class="w-100 h-75" src="images/portfolio/api_illustration_440x330.jpeg" alt="works image">
+                </div>
+              </div>
+              <div class="col">
+                <div class="works-card rounded-2 overflow-hidden position-relative">
+                  <div class="overlay position-absolute w-100 h-100 bg-white opacity-0 text-center align-content-center">
+                    <h4 class="mb-3 fw-bold">GraphQL Liberary</h4>
+                    <div class="card-icon d-flex justify-content-center align-items-center">
+                      <a href="https://github.com/MohammedEsmaill/GraphQL-Assignment.git" target="_blank" class=" icon-circle rounded-circle  d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-code"></i></a>
+                    </div>
+                    <p class="card-text p-3">Express.js, MongoDB, GraphQl, JOI, build a GraphQL API for a library management system </p>
+                  </div>
+                  <img class="w-100 h-75" src="images/portfolio/api_illustration_440x330.jpeg" alt="works image">
+                </div>
+              </div>
+              <div class="col">
+                <div class="works-card rounded-2 overflow-hidden position-relative">
+                  <div class="overlay position-absolute w-100 h-100 bg-white opacity-0 text-center align-content-center">
+                    <h4 class="mb-3 fw-bold">Job Search App</h4>
+                    <div class="card-icon d-flex justify-content-center align-items-center">
+                      <a href="https://github.com/MohammedEsmaill/job_search.git" target="_blank" class=" icon-circle rounded-circle  d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-code"></i></a>
+                      <a href="https://documenter.getpostman.com/view/37641417/2sAYdhKW5k" target="_blank " class="icon-circle rounded-circle d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-cubes"></i></a>
+                    </div>
+                    <p class="card-text p-3">Express.js, MongoDB, GraphQl, JOI, socket.io  for apply job and job offering</p>
+                  </div>
+                  <img class="w-100 h-75" src="images/portfolio/api_illustration_440x330.jpeg" alt="works image">
+                </div>
+              </div>
+              <div class="col">
+                <div class="works-card rounded-2 overflow-hidden position-relative">
+                  <div class="overlay position-absolute w-100 h-100 bg-white opacity-0 text-center align-content-center">
+                    <h4 class="mb-3 fw-bold">Social App</h4>
+                    <div class="card-icon d-flex justify-content-center align-items-center">
+                      <a href="https://github.com/MohammedEsmaill/social-App.git" target="_blank" class=" icon-circle rounded-circle  d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-code"></i></a>
+                      <a href="https://documenter.getpostman.com/view/37641417/2sAYQfEUsG" target="_blank " class="icon-circle rounded-circle d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-cubes"></i></a>
+                    </div>
+                    <p class="card-text p-3">Social application build using (Express.js, MongoDB, JOI, socket.io)</p>
+                  </div>
+                  <img class="w-100 h-75" src="images/portfolio/api_illustration_440x330.jpeg" alt="works image">
+                </div>
+              </div>
+              <div class="col">
+                <div class="works-card rounded-2 overflow-hidden position-relative">
+                  <div class="overlay position-absolute w-100 h-100 bg-white opacity-0 text-center align-content-center">
+                    <h4 class="mb-3 fw-bold">Saraha App</h4>
+                    <div class="card-icon d-flex justify-content-center align-items-center">
+                      <a href="https://github.com/MohammedEsmaill/social-App.git" target="_blank" class=" icon-circle rounded-circle  d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-code"></i></a>
+                      <a href="https://documenter.getpostman.com/view/37641417/2sAYQcFW1V" target="_blank " class="icon-circle rounded-circle d-flex justify-content-center align-items-center mx-1"><i class="fa-solid fa-cubes"></i></a>
+                    </div>
+                    <p class="card-text p-3">Saraha application build using (Express.js, MongoDB, JOI)</p>
+                  </div>
+                  <img class="w-100 h-75" src="images/portfolio/api_illustration_440x330.jpeg" alt="works image">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about-bage -->
+  <section class="about-page my-5" id="about">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2 justify-content-center align-items-md-start">
+        <div class="col-md-5">
+          <div class="about-img">
+            <img class="w-100 ps-4 pb-3" src="images/WhatsApp Image 2025-05-07 at 03.29.19_d08afb64.jpg" alt="person">
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="about-text p-4">
+            <h2 class="fw-bold">About Me.</h2>
+            <h4 class="fw-bold text-muted opacity-50">Sowftware Engineer</h4>
+            <p class="text-muted opacity-75 ps-3">I am <span class="fw-bold">Mohammad Esmail AboElhadid </span>, a passionate<span class="fw-bold"> MERN Stack Developer </span><br>After earning my Bachelor’s degree in Computer Science from Tanta University, I joined Route Academy where I deepened my knowledge in both front-end and back-end development, working on several real-world projects that sharpened my skills and problem-solving abilities.</p>
+            <h4 class="fw-bold text-muted opacity-75">Technical Skills :-</h4>
+            <div class="ps-3">
+              <p class="text-muted"><span class="fw-bold fs-6">Languages: </span> JavaScript (ES6+), TypeScript</p>
+              <p class="text-muted"><span class="fw-bold fs-6">Front-End: </span> React.js, Next.js 14, Redux Toolkit, React Query, Tailwind CSS, Bootstrap, Styled Components</p>
+              <p class="text-muted"><span class="fw-bold fs-6">Back-End: </span> Node.js, Express.js, Nest.js, MongoDB, MySQL, REST APIs, GraphQL, JWT, Socket.io</p>
+              <p class="text-muted"><span class="fw-bold fs-6">Tools & Practices: </span> Git, GitHub, Vercel, OOP, Postman, Srtipe,Docker</p>
+            </div>
+            <h4 class="fw-bold text-muted opacity-75">Soft Skills :-</h4>
+            <div class="ps-3">
+              <p class="text-muted">Strong problem-solving abilities - Effective communication - Teamwork & collaboration - Time management - Fast learner and adaptable - Attention to detail</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--certificates-page-->
+  <section class="certificates-page bg-body-tertiary overflow-hidden" id="certificates">
+    <div class="testmonial-content bg-body-tertiary w-100">
+      <div class="container d-flex justify-content-center align-items-center flex-column text-center mb-5">
+        <div class="page-title-dashesd d-flex justify-content-center align-items-center flex-column">
+          <h2 class="position-relative display-4 fw-bold my-3">Certificates.</h2>
+        </div>
+        <div id="carouselExampleAutoplaying" class="carousel slide my-3" data-bs-ride="carousel" data-bs-interval="2200">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active rounded-circle mx-1 bg-dark position-relative" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" class="rounded-circle mx-1 bg-dark position-relative" aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active text-center">
+              <div class="item-img">
+                <img id="testmonial-img-3" src="images/th.jpeg" class=" rounded-circle" alt="person">
+              </div>
+              <h4 class="mt-4">Route Academy</h4>
+              <p class="text-muted opacity-75 fs-5 fw-semibold">Programming Fundamentals</p>
+            </div>
+            <div class="carousel-item text-center">
+              <div class="item-img">
+                <img id="testmonial-img-3" src="images/th.jpeg" class=" rounded-circle" alt="person">
+              </div>
+              <h4 class="mt-4">Route Academy</h4>
+              <p class="text-muted opacity-75 fs-5 fw-semibold">Full Stack Web Development</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-dark overflow-hidden">
+    <div class="footer-box text-center my-4 text-white">
+      <p class="text-light-emphasis">Copy Right 2025<span class="me-2"><i class="fa-regular fa-copyright"></i></span>By <strong>Mohamed Esmail. </strong>All Rights Reserved</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+  <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
