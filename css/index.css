@@ -1,0 +1,195 @@
+/*global styling */
+
+:root {
+  --primary-color: hsl(0, 0%, 100%);
+  --bs-progress-border-radius: 0rem;
+  --bs-certificates-card-border: 0rem;
+  --bs-works-nav-color: #212529;
+  --bs-works-nav-hover-color: #b95050;
+  scroll-padding: 40px;
+}
+
+.page-title-dashesd h2::after {
+  content: "";
+  position: absolute;
+  background-image: radial-gradient(rgb(0, 0, 0) 1px, #f8f9fa 0.7px);
+  background-size: 10px 10px;
+  width: 115%;
+  height: 5px;
+  bottom: -5px;
+  left: -15px;
+}
+.navbar .navbar-collapse a.nav-link {
+  position: relative;
+  color: var(--text-color);
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 17px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.navbar .navbar-collapse a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: var(--primary-color);
+  transition: left 0.3s ease, width 0.3s ease;
+}
+
+.navbar .navbar-collapse a:hover::before {
+  width: 100%;
+  left: 0;
+}
+
+.navbar .navbar-collapse a.nav-link.active,
+.navbar .navbar-collapse a.nav-link.active:hover,
+.navbar .navbar-collapse a.nav-link:hover {
+  color: var(--primary-color) !important;
+}
+
+.navbar .navbar-collapse a.nav-link.active:hover::before {
+  width: 100%;
+  left: 0;
+}
+
+.navbar .navbar-collapse .nav-link.active::after {
+  content: "";
+  width: 90%;
+  height: 2px;
+  bottom: 0;
+  left: 0px;
+  position: absolute;
+  background-color: #fff;
+}
+/*header */
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/bg.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#typing-text::after {
+  content: "|";
+  animation: typing 0.7s infinite;
+}
+
+@keyframes typing {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+/* works */
+.works-page .page-title-dashesd h2::after {
+  background-image: radial-gradient(rgb(0, 0, 0) 1px, #fff 0.7px);
+}
+.works-content .col .works-card .overlay {
+  transition-duration: 0.5s;
+}
+.works-content .col .works-card .overlay .icon-circle {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  color: #fff;
+  transition-duration: 0.5s;
+}
+.works-content .col .works-card .overlay:hover {
+  opacity: 0.9 !important;
+}
+.works-content .col .works-card .overlay .icon-circle:hover {
+  color: black;
+  background-color: #fff;
+  border: black 1px solid;
+}
+.works-page .nav-pills {
+  --bs-nav-pills-link-active-color: black;
+  --bs-nav-pills-link-active-bg: transparent;
+}
+.works-page .nav {
+  --bs-nav-link-color: var(--bs-works-nav-color);
+  /* --bs-nav-link-hover-color: var(--bs-works-nav-hover-color); */
+}
+.works-page .nav .nav-link {
+  position: relative;
+  color: var(--text-color);
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 17px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.works-page .nav .nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: var(--bs-works-nav-color);
+  transition: left 0.3s ease, width 0.3s ease;
+}
+
+.works-page .nav .nav-link:hover::before {
+  width: 100%;
+  left: 0;
+}
+.works-page .nav-link.active {
+  position: relative;
+}
+.works-page .nav-link.active::after {
+  content: "";
+  width: 50%;
+  height: 2px;
+  bottom: 0;
+  left: 22%;
+  position: absolute;
+  background-color: black;
+}
+.works-page .testmonial-content .page-title-dashesd h2::after {
+  background-image: radial-gradient(rgb(0, 0, 0) 1px, #f8f9fa 0.7px);
+}
+/* about*/
+.about-page .about-img {
+  background-color: #fff;
+  background-image: radial-gradient(rgb(0, 0, 0) 0.5px, #fff 0.5px);
+  background-size: 10px 10px;
+}
+/* certificates */
+
+.certificates-page .icon-circle {
+  width: 100px;
+  height: 100px;
+  background-color: #f8f9fa;
+  transition-duration: 0.6s;
+}
+.certificates-card .card {
+  --bs-card-border-width: var(--bs-certificates-card-border);
+}
+.certificates-card .card:hover .icon-circle {
+  background-color: black;
+  color: #fff;
+}
+
+#testmonial-img-3 {
+  width: 150px;
+  height: 150px;
+}
+.carousel-indicators button {
+  width: 10px !important;
+  height: 10px !important;
+  bottom: -50px !important;
+}
