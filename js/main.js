@@ -24,7 +24,7 @@ function type() {
 type();
 
 $(window).scroll(function () {
-  if (window.scrollY > $('#works').offset().top - 1) {
+  if (window.scrollY > $('#works').offset().top - 250) {
     $('.toUp').removeClass('d-none')
   }
   else{
@@ -34,7 +34,7 @@ $(window).scroll(function () {
 $('.toUp').click(function () {
   $('html, body').animate({
     scrollTop: 0
-  }, 500);
+  }, 200);
 })
 
 // particlesJS
